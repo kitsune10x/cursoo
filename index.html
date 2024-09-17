@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Vida 2</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="estudandoo.jpg" alt="">
+            <p>Você está tranquilo em casa estudando um pouco, mas como você já está a 3 horas estudando seguido, então você fala que vai ter um descanso dos estudos por algumas horas</p>
+            <button class="btn-proximo" data-proximo="1">Ir para o computador</button>
+            <button class="btn-proximo" data-proximo="2">Ir para a cozinha para muça</button>
+            <button class="btn-proximo" data-proximo="15">Ir dormir</button>
+            <button class="btn-proximo" data-proximo="21">Ir para a escola</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="sla.jpeg" alt="">
+            <p>Você começa a mexer no seu computador e chega um email no seu correio eletrônico</p>
+            <button class="btn-proximo" data-proximo="3">Checar se há vírus</button>
+            <button class="btn-proximo" data-proximo="4">Abrir o email</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você entra na cozinha e vê um strogonoff, um hamburguer e uma lasanha</p>
+            <button class="btn-proximo" data-proximo="5">Você come o strogonoff</button>
+            <button class="btn-proximo" data-proximo="6">Você devora o hamburguer</button>
+            <button class="btn-proximo" data-proximo="16">Você come a lasanha</button>
+        </div>
+        <div class="passo" id="passo-15"> 
+            <p>Você deitou na cama, comeu uma pizza, dormiu e perdeu um dia inteiro<br>Tu é o Felipe?</br></p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+        <div class="passo" id="passo-16"> 
+            <img src="fuleco.jfif" width="350" alt="F">            
+            <p>Você lembra que é o Felipe e morre porque havia muito queijo nela</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Não há vírus e no email está escrito: <br>"Você foi aceito no CyberAcademy 2024, as aulas começam dia 19/09/2024;</br> Para começar o curso entre no link: https://febrabantech.febraban.org.br/eventos/cyber-academy." <br>Suporte: +20 15 51202-7156</br></p>
+            <button class="btn-proximo" data-proximo="7">clicar no link</button>
+            <button class="btn-proximo" data-proximo="19">Desistir e entrar no suporte da Febraran, tirando sua inscrição do curso</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="ab.jpg" alt="Acho mesmo?">
+            <p>Você morreu de tuberculose enquanto entrou no email e não verificou se havia vírus(Leia o comentário depois)</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+        <!--Sei lá, to ficando louco, 2:05 da manhã e eu fazendo esse negócio-->
+
+        <div class="passo" id="passo-5">
+            <p>O strogonoff estava delicioso, você está cheio e vai para o computador</p>
+            <button class="btn-proximo" data-proximo="50">Jogar Deepwoken</button>
+            <button class="btn-proximo" data-proximo="20">Jogar Valorant com amigos no discord</button>
+        </div>
+
+        <div class="passo" id="passo-50">
+            <img src="gordo.jpg" alt="gordo">
+            <p>Escolher Deepwoken no negócio de opções? <br>Morreu por escolher esse jogo ruim</br></p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="abc.jpg" alt="vish">
+            <p>Você dá uma mordida no hamburguer, mas só depois da primeira mordida você vê que não era um hamburguer normal e você está passando meio mal</p>
+            <button class="btn-proximo" data-proximo="8">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Quando entra no link, você vê que a carga horária do curso é de 500 horas e o curso é totalmente focado em cybersegurança</p>
+            <button class="btn-proximo" data-proximo="9">Quer continuar mesmo sabendo a carga horária</button>
+            <button class="btn-proximo" data-proximo="10">Desistir</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <img src="ao.jpg" alt="tilto?">
+            <p>Você tilta, vai pro xadrez no meio da partida, mas perde também e fica mais tiltado ainda e tenta jogar tryhard mas perde mesmo assim porque está falido</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-19"> 
+            <p>Você tirou sua inscrição do curso e agora não tem nada para fazer, apenas ficar conversando com seus amigos no discord</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="abcd.jpg" width="350"  alt="Felipe?">
+            <p>Você deita no sofá porque está passando muito mal e desmaia, quanto acorda você se tornou o Felipe do RG.
+                <br>Depois de você se acostumar com a seu novo rosto, você saiu para fora de casa e cria a REGRA</br>
+                <button class="btn-proximo" data-proximo="0">Resetar</button>
+            </p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você entra no curso, fica fazendo ele no intervalo da escola por 30 dias e aprende como proteger o seu computador de malwares</p>
+            <button class="btn-proximo" data-proximo="11">Estudar mais</button>
+            <button class="btn-proximo" data-proximo="23">Parar com os estudos na parte de segurança <br>e ir fazer uma prova para o Instituto Federal</br></button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você desistiu do curso e agora não tem nada para fazer, apenas ficar conversando com seus amigos no discord</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="nerd.jpg" alt="Nerd">
+            <p>Muito nerd</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-23">
+            <img src="sapo.jpg" alt="F mathias">
+            <p>Você conseguiu passar na prova, mas não entra porque seu amigo de zóio rasgado passou uma call mentirosa e você fez a inscrição errada</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <p>Você entra na escola</p>
+            <button class="btn-proximo" data-proximo="89">Entrar na sala de aula 1</button>
+            <button class="btn-proximo" data-proximo="90">Entrar na sala de aula 2</button>
+        </div>
+
+        <div class="passo" id="passo-89">
+            <p>Quando você tenta entrar na sala, há algo está impedindo a sua entrada</p>
+            <button class="btn-proximo" data-proximo="91">Ignorar, entrar na sala e esperar até o intervalo</button>
+            <button class="btn-proximo" data-proximo="92">Gritar 'Tck tá aqui fora te esperando' </button>
+        </div> 
+
+        <div class="passo" id="passo-90">
+            <p>Quando entra na sala, você vai para o lugar de sempre e faz uma piada com seu amigo</p>
+            <button class="btn-proximo" data-proximo="97">Pegar na mochila</button>
+            <button class="btn-proximo" data-proximo="98">Fingir que vai pegar na mochila e olhar para frente</button>
+        </div>
+
+        <div class="passo" id="passo-97">
+            <img src="arma-bolsa.gif" alt="">
+            <p>Realmente ele puxa uma arma e da um tiro</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-98">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSaa7nsPGYDwW-1IizT563JwZYpuWZXh_RApU7LByoGUEvUMaqY" width="400" alt="">
+            <p>Você vê a namorada do seu amigo olhando para você com a cara de sem entender nada, mas a reação dela é engraçada</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-91">
+            <p>Você entra na sala da Laura e vê uma pessoa estudando</p>
+            <button class="btn-proximo" data-proximo="93">Perguntar o porque ela odeia samsung</button>
+            <button class="btn-proximo" data-proximo="96">Jogar xadrez com a rapaziada nerd</button>
+        </div> 
+
+        <div class="passo" id="passo-93">
+            <p>Ela fala que o samsung que ela teve novinho a tela descolou do celular e que não gosta muito da samsung por isso</p>
+            <button class="btn-proximo" data-proximo="94">dar um celular a ela</button>
+            <button class="btn-proximo" data-proximo="95">dar um celular mofando</button>
+        </div> 
+
+        <div class="passo" id="passo-94">
+            <p>O celular estava com a bateria tão inchada que explodiu enquanto você entregava a ela<br>final ruim</br></p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div> 
+
+        <div class="passo" id="passo-95">
+            <p>quando entrega o iphone X, escorrega da mão dela, cai no chão e a tela descola do aparelho</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div> 
+
+        <div class="passo" id="passo-92">
+            <img src="buraco.jpg" alt="">
+            <p>Joãozinho sai pulando de alegria, mas quebra o chão e chega no Japão</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div> 
+
+        <div class="passo" id="passo-96">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk__tFQQdf1QRzLbuzbH9jSDbD96t3anY-FQ&s" alt="">
+            <p>Você vai jogando xadrez, seu oponente fica tiltado porque perdeu todas e você fez várias aberturas diferentes <br>(Ele até saiu do quarto no JEESP tiltado sem motivo)</br></p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div> 
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
